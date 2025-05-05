@@ -11,7 +11,7 @@
         <form action="index.php">
             <input name="route" value="home" hidden>
             <button type="submit" class="brand-link nav-link">
-            <img src="./logo.png" alt="Planning Logo" class="img-fluid elevation-3">
+            <img src="./assets/logo.png" alt="Planning Logo" class="img-fluid elevation-3">
             </button>
         </form>
       
