@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  body, html {
+    height: 100%;
+  }
+  
+  body {
+    background: #dfebed;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  #planning {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #planning td, #planning th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #planning tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #planning tr:hover {background-color: #ddd;}
+  
+  #planning th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  [draggable=true] {
+    cursor: move;
+  }
+  
+  .resizable {
+    overflow: scroll;
+    resize: both;
+    max-width: 300px;
+    max-height: 460px;
+    border: 1px solid black;
+    min-width: 50px;
+    min-height: 50px;
+    background-color: skyblue;
+  }
+
+  #popUpDiv{
+    z-index: 100;
+    position: absolute;
+    background-color: rgba(123, 123,123, 0.8);
+    display: none;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 300px;
+ }
+ #popupSelect{
+    z-index: 1000;
+    position: absolute;
+    top: 130px;
+    left: 50px;
+ }
+
+
+ 
